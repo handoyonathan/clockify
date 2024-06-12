@@ -6,9 +6,10 @@ import 'package:clocklify/activity_model.dart';
 
 const List<String> list = <String>['Latest Date', 'Nearby'];
 
+// asdasdasdasd
+
 class ActivityPage extends StatelessWidget {
   final String token;
-
   const ActivityPage({Key? key, required this.token}) : super(key: key);
 
   @override
@@ -38,6 +39,7 @@ class __ActivityTabState extends State<_ActivityTab> {
   bool isNearby = false;
   bool isLatest = false;
   double? _latitude, _longitude;
+  bool? vari;
 
   @override
   void initState() {
